@@ -1,0 +1,28 @@
+.dark-nav-bar {
+    background-color: #222222;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .dark-nav-bar h2 {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .dark-nav {
+    display: flex;
+  }
+  
+  .dark-nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 16px;
+  }
+  
+  .dark-nav a:hover {
+    color: #b4b4b4;
+  }

@@ -1,0 +1,109 @@
+
+#main-div-login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(119, 77, 119) 0%, rgba(36, 30, 36)  50%);
+    background-size: 400% 400%;
+    animation: gradientAnimation 6s linear infinite;
+    height: 100vh;
+  }
+  
+  @keyframes gradientAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  #logo-login {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 200px;
+    height: 120px;
+    margin-top: 30px;
+  }
+  
+  h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+    height: 100px;
+    width: 200px;
+    color: #ff9af7;
+  }
+  
+  #form-login {
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 600px;
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgb(36, 30, 36) 0%, rgb(210, 86, 241)  150%);
+    width: 450px;
+    border-radius: 5%;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.9);
+  }
+  
+  #label-login {
+    border-radius: 4px;
+    border: none;
+    padding: 10px;
+    width: 30%;
+    margin-top: 70px;
+    margin-bottom: 25px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 24px;
+  }
+  
+  #input-login {
+    color: #ffffff;
+    padding: 10px;
+    border: none;
+    font-size: 16px;
+    width: 70%;
+    margin-bottom: 15px;
+    border-bottom: 1px solid rgb(20, 20, 18);
+    background-color: transparent;
+  }
+  
+  #input-login:focus {
+    outline: none;
+  }
+  
+  #button-login {
+    width: 75%;
+    padding: 10px 20px;
+    background-color: #f5f39a;
+    color: #000000;
+    border: none;
+    border-radius: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: all 0.3s ease;
+  }
+  
+  #button-login:hover {
+    color: #000000;
+    background-color: #f5f39a;
+    transform: translateY(-0px) scale(110%);
+    box-shadow: 0 10px 15px rgba(42, 43, 38, 0.9);
+  }
+  
+  #button-login:disabled {
+    background-color: #f0f0f0;
+    cursor: not-allowed;
+  }
+  
+  #gif-login {
+    margin-top: 50px;
+    width: 200px;
+  }
+  

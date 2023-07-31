@@ -1,0 +1,35 @@
+.foot {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: rgb(37, 37, 37);
+  padding: 20px;
+  display: flex;
+  justify-content: start;
+  
+}
+
+.div-icon {
+  margin: 0 10px;  
+}
+.icon-image{
+  width: 25px;
+}
+
+.line {
+    position: absolute;
+    left: 6%;
+    top: 0;
+    bottom: 0;
+    width: 1px;
+    background-color: #c0b9b9;
+    transform: translateX(-50%);
+    margin: 10px;
+  }
+  
+  .info {
+    margin-top: 6px;
+    color: #c0b7b7;
+    margin-left: 30px;
+  }

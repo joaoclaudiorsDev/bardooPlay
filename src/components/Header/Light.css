@@ -1,0 +1,49 @@
+.div-general-header {
+  background-color: rgb(233, 209, 129);
+  display: flex;
+  justify-content: center;
+  height: 100px;
+}
+
+.light-nav-bar {
+  background-color: #292828;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 40px;
+  position: fixed;
+  width: 50%;
+  top: 10px;
+  margin-top: 10px;
+  box-shadow: 0 2px 5px rgba(29, 29, 29, 0.9);
+ }
+
+  .light-nav-bar h2 {
+    color: #f8ec80;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 40px;
+  }
+  .light-nav-bar h2:hover {
+    color: #e745e7;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .light-nav {
+    display: flex;
+  }
+  
+  .light-nav a {
+    color: #f8ec80;
+    text-decoration: none;
+    margin-right: 40px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+  }
+  
+  .light-nav a:hover {
+    color: #e745e7;
+    transform: translateX(-2px)translateY(-5px) scale(110%);
+  }
+  
